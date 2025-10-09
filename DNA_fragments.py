@@ -151,7 +151,7 @@ def pipeline(
         progress(2)
 
     df = df.apply(lambda x: x.astype(str).str.upper())
-    df_large = df[df["Sequence"].apply(len) >= 400]
+    df_large = df[df["Sequence"].apply(len) >= 500]
     # filter short fragments and reset index so numpy arrays align
     df = df[df["Sequence"].apply(len) < MAX_LENGTH].reset_index(drop=True)
 
