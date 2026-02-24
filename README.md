@@ -1,8 +1,8 @@
 # The Coli Toolkit (CTK): An extension of the modular Yeast Toolkit for use in _E. coli_
 
 
-This repository provides the code and data corresponding to the paper [**The Coli Toolkit (CTK): An extension of the modular Yeast Toolkit to the E. coli chassis**](https://doi.org/10.1101/2025.07.09.663901)
- by **Jacob Mejlsted<sup>1,2,3</sup>, Erik Kubaczka<sup>1,3</sup>, Sebastian Wirth<sup>1,3</sup>, and Heinz Koeppl<sup>1,3***</sup>, currently available as preprint on bioRxiv.
+This repository provides the code and data corresponding to the paper [**The Coli Toolkit (CTK): An extension of the modular Yeast Toolkit to the E. coli chassis**](https://pubs.acs.org/doi/10.1021/acssynbio.5c00489)
+ by **Jacob Mejlsted<sup>1,2,3</sup>, Erik Kubaczka<sup>1,3</sup>, Sebastian Wirth<sup>1,3</sup>, and Heinz Koeppl<sup>1,3***</sup>, currently available in at at ACS Synthetic Biology.
 
 1. Centre for Synthetic Biology, TU Darmstadt, Darmstadt 64283, Germany
 2. Graduate School Life Science Engineering, TU Darmstadt, Darmstadt 64283, Germany
@@ -47,13 +47,13 @@ The Python executable [DNA_fragments.py](DNA_fragments.py) performs clustering a
 ### Setup
 Please make sure that you have a working Python installation. The requirements and instructions on their installation can be found in [Requirements](#requirements). 
 
+Alternatively, the DNA clustering software is also available using pip using `pip install DNA-fragment-clustering`
 
 ### Input format
 
 The input .csv files were based on the output format of Benchling. Examples are provided in the `clustering_sample_data` folder. 
 The format uses three columns: **Name**, **Author**, **Sequence**
 These are the name of the DNA fragment, the author/owner of the DNA sequences, and sequence in question, respectively. 
-
 
 ## Flow cytometry analysis and model calibration
 The code for loading, preprocessing and analyzing the flow cytometry data is provided jointly with the code for model calibration in the Python notebook [ColiToolKit_Flow_Cytometry_Analysis_and_Model_Calibration.ipynb](ColiToolKit_Flow_Cytometry_Analysis_and_Model_Calibration.ipynb).
@@ -106,7 +106,7 @@ warnings
 
 
 ## Citation
-If you use this code or the data provided here, please cite the corresponding preprint. 
+If you use this code or the data provided here, please cite the corresponding paper. 
 
 
 ## License
